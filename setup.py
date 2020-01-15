@@ -13,10 +13,10 @@ test_requirements = [
 
 setup(
     name='datetransform',
-    version='0.1.0',
+    version='0.1.1',
     packages=find_packages(),
     url='https://www.github.com/brandonschabell/datetransform',
-    download_url='https://github.com/brandonschabell/datetransform/archive/v0.1.0.tar.gz',
+    download_url='https://github.com/brandonschabell/datetransform/archive/v0.1.1.tar.gz',
     license='MIT',
     author='Brandon Schabell',
     author_email='brandonschabell@gmail.com',
