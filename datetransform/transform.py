@@ -1,7 +1,9 @@
 import numpy as np
 import pandas as pd
 
-def add_date_features(df: pd.DataFrame, date_field_name: str, time=True):
+def add_date_features(df: pd.DataFrame, date_field_name: str, time=True, inplace=False):
+    if not inplace:
+        df = df.copy()
     make_date(df, date_field_name)
     field = df[date_field_name]
     attr = ['Year', 'Month', 'Week', 'Day', 'DayOfWeek', 'DayOfYear', 'Is_Month_End', 'Is_Month_Start',
