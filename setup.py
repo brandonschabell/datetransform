@@ -8,15 +8,15 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 
 test_requirements = [
-    'pytest'
+    'pytest>=5.4.1'
 ]
 
 setup(
     name='datetransform',
-    version='0.1.1',
+    version='0.2.0',
     packages=find_packages(),
     url='https://www.github.com/brandonschabell/datetransform',
-    download_url='https://github.com/brandonschabell/datetransform/archive/v0.1.1.tar.gz',
+    download_url='https://github.com/brandonschabell/datetransform/archive/v0.2.0.tar.gz',
     license='MIT',
     author='Brandon Schabell',
     author_email='brandonschabell@gmail.com',
